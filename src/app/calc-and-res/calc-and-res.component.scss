@@ -1,0 +1,39 @@
+.container{
+    max-width: 100vw;
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh ;
+    margin-left: 15vw;
+    gap:3rem;
+}
+@media screen and (max-width: 600px){
+    .container{
+       flex-direction: column;
+       width: 100%;
+       margin-left: 0;
+    }
+
+ }
+.matin{
+    width: 50%;
+}
+.Bcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    width: 30%;
+    letter-spacing: 0.1rem;
+    color: white;
+    background-color: #a697ea;
+    font-size: clamp(
+        0.5rem,2vw,1.5rem
+    );
+}
+.test{
+    width: 120px;
+}

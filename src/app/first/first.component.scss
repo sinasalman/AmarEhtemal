@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.container {
+    max-width: 100vw;
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10vh ;
+    margin-left: 15vw;
+    gap:3rem;
+}
+
+#text {
+    letter-spacing: 0.1rem;
+    font-family: Roboto;
+    color: rgb(28, 32, 90);
+    font-size: clamp(1rem,2vw,2rem);
+}
+button{
+    width: 100%;
+    height: 10px;
+    font-size: clamp(1rem,1.5vw,1.5rem);
+}
